@@ -1,0 +1,23 @@
+{
+  "@context": "https://www.w3.org/ns/did/v1",
+  "id": "did:web:kekeho.github.io:didweb-test",
+  "verificationMethod": [
+    {
+      "id": "did:web:kekeho.github.io:didweb-test#key1",
+      "type": "EcdsaSecp256k1VerificationKey2019",
+      "controller": "did:web:kekeho.github.io:didweb-test",
+      "publicKeyJwk": {
+        "kty": "EC",
+        "x": "Ra--xuw15DIpDiezSPPj9bTKjpP8UgWOKqjwE7uSSDw",
+        "y": "9sSvGSYG8bycJ3mvQ4wrZEYgPsfdb22i44mUMcZLPr8",
+        "crv": "secp256k1"
+      }
+    }
+  ],
+  "authentication": [
+    "did:web:kekeho.github.io:didweb-test#key1"
+  ],
+  "assertionMethod": [
+    "did:web:kekeho.github.io:didweb-test#key1"
+  ]
+}
